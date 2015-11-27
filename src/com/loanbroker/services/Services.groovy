@@ -16,7 +16,7 @@ class Services {
 			}
 		}
 		
-		response.getCreditScoringResponse.return.creditScoring
+		response.getCreditScoringResponse.return
 	}
 	
 	def getBankQuote(creditScoringValue , loanAmountValue , termValue){
@@ -31,7 +31,7 @@ class Services {
 			}
 		}
 		
-		response.getBankQuoteResponse
+		response.getBankQuoteResponse.return
 	}
 
 }
